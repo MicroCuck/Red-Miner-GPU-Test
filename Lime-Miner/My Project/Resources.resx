@@ -130,4 +130,16 @@
   <data name="xmrig" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\xmrig.exe;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="nvrtc64_90" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nvrtc64_90.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nvrtc_builtins64_90" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nvrtc-builtins64_90.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="xmrig_amd_notls" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xmrig-amd-notls.exe;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="xmrig_nvidia9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xmrig-nvidia9.exe;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

